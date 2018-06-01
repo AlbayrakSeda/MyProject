@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_sonuc"
+        android:textSize="45dp"
+        android:text="Sonuç = 0"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_ekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_cikar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çıkar"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
